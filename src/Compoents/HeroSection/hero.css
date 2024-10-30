@@ -1,0 +1,139 @@
+Hero{
+width: 100%;
+
+}
+
+/* .heroSection{
+} */
+.img-hero{
+    
+    width: 100%;
+    /* height: 200px; */
+    /* object-fit: contain; */
+}
+
+.hero_border h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 700;
+}
+.hero_border p{
+    color: white;
+    text-align: left;
+    width: 104%;
+}
+.hero_book{
+    border: 1px solid white;
+    padding: 11px 47px;
+    letter-spacing: 1px;
+    line-height: 25.6px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero_book:hover{
+    background-color: white;
+    color: black;
+}
+.hero_border{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    border: 15px solid #a0c6b9;
+    width: 400px;
+    height: 451px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:768px){
+    .hero_border{
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        border: 10px solid #a0c6b9;
+        width: 300px;
+        height: 420px;
+
+    }
+    .hero_border h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+  
+    
+    .img-hero{
+        position: relative;
+        /* object-fit: contain; */
+        width: 100%;
+        min-height: 100vh;
+      
+    }
+    .hero_book{
+        padding: 5px ;
+
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .hero_border{
+        position: absolute;
+        top: 90px;
+        left: 90px;
+        border: 10px solid #a0c6b9;
+        width: 300px;
+        height: 420px;
+
+    }
+    .hero_border h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+  
+    
+    .img-hero{
+        position: relative;
+        /* object-fit: contain; */
+        width: 100%;
+        min-height: 100vh;
+      
+    }
+    .hero_book{
+        padding: 5px ;
+
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px){
+    .hero_border{
+        position: absolute;
+        top: 90px;
+        left: 190px;
+        border: 10px solid #a0c6b9;
+        width: 300px;
+        height: 420px;
+
+    }
+    .hero_border h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+  
+    
+    .img-hero{
+        position: relative;
+        /* object-fit: contain; */
+        width: 100%;
+        min-height: 100vh;
+      
+    }
+    .hero_book{
+        padding: 5px ;
+
+        font-size: 14px;
+    }
+}
