@@ -1,0 +1,375 @@
+
+
+.Consultation{
+    width: 100%;
+    height: 180vh;
+    background-color: #a0c6b9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.postion-img{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    position: relative;
+    /* border: 1px solid blue; */
+    top: -90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postion-img img{
+    width: 476px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 10;
+}
+
+
+.border{
+    width: 60%;
+    height: 60vh;
+    background-color: #34312a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 40px 20px;
+    margin: 0px 20px;
+    position: absolute;
+    left: 170px;
+    top: 204px;
+}
+
+.border h2{
+    color: white;
+}
+.border p{
+    width: 40%;
+}
+
+.ConsultationBorder{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.ConsultationBorder h2{
+
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+
+}
+.ConsultationBorder_Box{
+    /* border: 1px solid blue; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.ConsultationBorder img{
+    width: 100px;
+    height: 100px;
+    border: 12px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ConsultationBorder_Box h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+}
+ 
+.ConsultationBorder_Box p{
+text-align: center;
+line-height: 36px;
+}
+.img-center{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .Consultation {
+        width: 100%;
+        height: 290vh;
+        background-color: #a0c6b9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ConsultationBorder {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 250px;
+    }
+
+    .postion-img {
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        position: relative;
+        /* border: 1px solid blue; */
+        top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .postion-img img{
+            width: 259px;
+       
+            position: absolute;
+            left: 50px;
+            top: 100px;
+            z-index: 10;
+       
+        
+    }
+
+    .border {
+        width: 60%;
+        height: 63vh;
+        background-color: #34312a;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 99px 20px;
+        margin: 0px 20px;
+        position: absolute;
+        left: 70px;
+        top: 233px;
+        align-items: center;
+    }
+    .border p {
+        width: 100%;
+    }
+
+    .img-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        }
+
+        .ConsultationBorder_Box {
+            /* border: 1px solid blue; */
+            width: 80%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ConsultationBorder_Box p {
+            text-align: center;
+            line-height: 36px;
+            width: 90%;
+        }
+
+    
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .Consultation {
+        width: 100%;
+        height: 290vh;
+        background-color: #a0c6b9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ConsultationBorder {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 250px;
+    }
+
+    .postion-img {
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        position: relative;
+        /* border: 1px solid blue; */
+        top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .postion-img img{
+            width: 259px;
+       
+            position: absolute;
+            left: 50px;
+            top: 100px;
+            z-index: 10;
+       
+        
+    }
+
+    .border {
+        width: 60%;
+        height: 63vh;
+        background-color: #34312a;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 99px 20px;
+        margin: 0px 20px;
+        position: absolute;
+        left: 70px;
+        top: 233px;
+        align-items: center;
+    }
+    .border p {
+        width: 100%;
+    }
+
+    .img-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        }
+
+        .ConsultationBorder_Box {
+            /* border: 1px solid blue; */
+            width: 80%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ConsultationBorder_Box p {
+            text-align: center;
+            line-height: 36px;
+            width: 90%;
+        }
+
+
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+
+    .Consultation {
+        width: 100%;
+        height: 290vh;
+        background-color: #a0c6b9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ConsultationBorder {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 250px;
+    }
+
+    .postion-img {
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        position: relative;
+        /* border: 1px solid blue; */
+        top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .postion-img img{
+        width: 259px;
+   
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        z-index: 10;
+   
+    
+}
+
+    .border {
+        width: 60%;
+        height: 63vh;
+        background-color: #34312a;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 99px 20px;
+        margin: 0px 20px;
+        position: absolute;
+        left: 70px;
+        top: 233px;
+        align-items: center;
+    }
+    .border p {
+        width: 100%;
+    }
+
+    .img-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        }
+
+        .ConsultationBorder_Box {
+            /* border: 1px solid blue; */
+            width: 80%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ConsultationBorder_Box p {
+            text-align: center;
+            line-height: 36px;
+            width: 90%;
+        }
+
+
+    
+}

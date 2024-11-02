@@ -19,6 +19,7 @@ width: 100%;
 }
 .hero_border p{
     color: white;
+    font-size: 16px;
     text-align: left;
     width: 104%;
 }
@@ -56,7 +57,7 @@ width: 100%;
         left: 10px;
         border: 10px solid #a0c6b9;
         width: 300px;
-        height: 420px;
+        height: 602px;
 
     }
     .hero_border h1{
@@ -69,13 +70,19 @@ width: 100%;
         position: relative;
         /* object-fit: contain; */
         width: 100%;
-        min-height: 100vh;
+        min-height: 140vh;
       
     }
     .hero_book{
         padding: 5px ;
 
         font-size: 14px;
+    }
+    .hero_border p {
+        color: white;
+        text-align: left;
+        width: 104%;
+        font-size: 16px;
     }
 }
 
@@ -107,6 +114,13 @@ width: 100%;
 
         font-size: 14px;
     }
+    .hero_border p {
+        color: white;
+        text-align: left;
+        width: 104%;
+        font-size: 13px;
+    }
+  
 }
 @media screen and (min-width:992px) and (max-width:1024px){
     .hero_border{
@@ -135,5 +149,11 @@ width: 100%;
         padding: 5px ;
 
         font-size: 14px;
+    }
+    .hero_border p {
+        color: white;
+        text-align: left;
+        width: 104%;
+        font-size: 13px;
     }
 }

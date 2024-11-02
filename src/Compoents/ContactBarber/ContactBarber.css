@@ -1,0 +1,147 @@
+
+
+.ContactBarbe{
+    background-image: url(../../assets/bvcer-min.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: end;
+    padding: 90px 0px;
+}
+
+.ContactBarbe h1{
+    /* border: 1px solid red; */
+    width: 50%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.ContactBarbe button{
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 19px 56px;
+    background-color: #a0c6b9;
+    color: black;
+}
+
+.ContactBarbe button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.Box{
+    /* border: 1px solid blue; */
+    background-color: white;
+    width: 85%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 40px; */
+}
+
+
+
+@media screen and (max-width:768px){
+    .ContactBarbe{
+        background-image: url(../../assets/bvcer-min.jpg);
+        background-size: cover;
+        background-position-x: center;
+        /* background-position-y:center ; */
+        width: 100%;
+        /* object-fit: contain; */
+       
+    }
+    .ContactBarbe h1{
+        /* border: 1px solid red; */
+        width: 75%;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+    .Box{
+        /* border: 1px solid blue; */
+        width: 96%;
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        /* margin-bottom: 40px; */
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .ContactBarbe{
+        background-image: url(../../assets/bvcer-min.jpg);
+        background-size: cover;
+        background-position-x: center;
+        /* background-position-y:center ; */
+        width: 100%;
+        /* object-fit: contain; */
+       
+    }
+    .ContactBarbe h1{
+        /* border: 1px solid red; */
+        width: 75%;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+    .Box{
+        /* border: 1px solid blue; */
+        width: 96%;
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        /* margin-bottom: 40px; */
+    }
+   
+}
+
+@media screen and (min-width: 992px) and (max-width:1024px){
+    .ContactBarbe{
+        background-image: url(../../assets/bvcer-min.jpg);
+        background-size: cover;
+        background-position-x: center;
+        /* background-position-y:center ; */
+        width: 100%;
+        /* object-fit: contain; */
+       
+    }
+    .ContactBarbe h1{
+        /* border: 1px solid red; */
+        width: 75%;
+        text-align: center;
+        font-size: 2.rem;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+    }
+    .Box{
+        /* border: 1px solid blue; */
+        width: 96%;
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        /* margin-bottom: 40px; */
+    }
+   
+}
+
+

@@ -1,0 +1,119 @@
+
+ .Services  {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 43px;
+}
+
+.Services h1{
+    font-weight: 700;
+}
+.img-Services1{
+    background-image: url(../../assets/ffff.jpg);
+    background-size: cover;
+    width: 224px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.img-Services2{
+    background-image: url(../../assets/jjjjjjjjjjj.jpg);
+    background-size: cover;
+    width: 224px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.img-Services3{
+    background-image: url(../../assets/kjjkk.jpg);
+    background-size: cover;
+    width: 224px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.img-Services4{
+    background-image: url(../../assets/888.jpg);
+    background-size: cover;
+    width: 224px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+ button{
+    
+    padding: 12px 22px;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+ button:hover{
+
+    background-color: #a0c6b9;
+    transition: 0.5s;
+    color: white;
+    
+}
+
+.mad-services{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:768px){
+    
+    .mad-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px
+    }
+}
+
+
+@media screen and (min-width:768px)and (max-width: 992px){
+    
+    .mad-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px
+    }
+}
+
+
+@media screen and (min-width:992px)and (max-width: 1024px){
+    
+    .mad-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px
+    }
+}

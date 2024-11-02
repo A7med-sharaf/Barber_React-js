@@ -8,21 +8,21 @@ import { useEffect } from 'react';
 const Hero = () => {
     useEffect(()=>{
 
-        Aos.init({duration: "2000" ,delay:"1000" });
+        Aos.init({duration: "900" ,delay:"900" });
 
     },[])
   return (   <div className='heroSection animate__animated  animate__swing' >
         <img src={hero_imgage} className='img-hero'  alt="" />
-        <div className='hero_border ' data-aos="fade-right">
-            <h1 className=''>Full Service Barber Shop</h1>
-            <p className=''>Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus 
+        <div className='hero_border ' data-aos="zoom-in">
+            <h1 className='' data-aos="fade-right">Full Service Barber Shop</h1>
+            <p className='' data-aos="fade-right">Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus 
                 dolor. A lacus vestibulum sed arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Mauris pellentesque 
-            pulvinar pellentesque habitant morbi tristique senectus.</p>
-            <div className='hero_book animate__animated  animate__delay-3s animate__repeat'>
+            .</p>
+            <div  className='hero_book '  >
                 BOOK AN APPOINTMENT
             </div>
         </div>
-        <div data-aos="fade-right"><h1> hello</h1></div>
+        
     </div>
   )
 }

@@ -1,0 +1,162 @@
+
+
+.ContactUs{
+background-image: url(../../assets/ggfg.jpg);
+background-size: cover;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid red; */
+}
+.ContactUs h1{
+
+    font-weight: 700;
+}
+
+.boreder_center{
+    /* border: 1px solid blue; */
+    width: 70%;
+    height: 30%;
+    background-color: #a0c6b9;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.table_contact{
+    position: absolute;
+    top: -160px;
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.form{
+    /* border: 1px solid rgb(0, 255, 8); */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.form .input{
+    border: 1px solid rgb(179, 179, 179);
+    width: 90%;
+    padding: 10px 12px;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.form .textarea{
+    width: 90%;
+    resize: none;
+    height: 19vh;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: #f2f2f2;
+
+}
+
+
+.form .label_username{
+    
+  width: 90%;
+  /* border: 1px solid red; */
+  margin-bottom: -9px;
+}
+
+
+.form .label_email{
+    
+    width: 90%;
+  margin-bottom: -9px;
+
+
+    
+}
+
+.form button{
+    width: 90%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form button:hover{
+    background-color: black;
+    columns: white;
+}
+@media screen and (max-width: 768px) {
+    .boreder_center {
+        /* border: 1px solid blue; */
+        width: 94%;
+       
+    }
+    
+    .table_contact {
+      
+        /* border: 1px solid red; */
+        width: 82%;
+        height: 93vh;
+       
+    }
+    .form {
+        
+        width: 96%;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .boreder_center {
+        /* border: 1px solid blue; */
+        width: 94%;
+       
+    }
+    
+    .table_contact {
+      
+        /* border: 1px solid red; */
+        width: 82%;
+        height: 93vh;
+       
+    }
+    .form {
+        
+        width: 96%;
+        
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1024px) {
+    .boreder_center {
+        /* border: 1px solid blue; */
+        width: 94%;
+       
+    }
+    
+    .table_contact {
+      
+        /* border: 1px solid red; */
+        width: 82%;
+        height: 82vh;
+       
+    }
+    .form {
+        
+        width: 96%;
+        
+    }
+}

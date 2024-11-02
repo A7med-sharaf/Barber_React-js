@@ -1,0 +1,202 @@
+
+   
+.Fullservice{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: flex-start;
+    padding: 60px 0px;
+
+}
+
+
+
+.Fullservice h1{
+    /* border: 1px solid red; */
+    width: 35%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.Fullservice-book p{
+    /* border: 1px solid blue;/ */
+    font-size: 18px;
+    color: rgb(11, 11, 11);
+    
+    line-height: 40px;
+}
+
+
+
+.Fullservice-book{
+    /* border: 1px solid blue; */
+    width: 40%;
+
+}
+
+.FullserviceBoreder{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    width: 56%;
+    padding: 11px 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+.FullserviceBoreder:hover{
+    color: white;
+    background-color: #a0c6b9;
+}
+
+@media screen and (max-width:768px) {
+
+    .Fullservice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180vh;
+    padding:0px;
+    gap: 32px;
+    
+}
+.Fullservice-book{
+    /* border: 1px solid blue; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.Fullservice h1{
+    /* border: 1px solid red; */
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.Fullservice-book p{
+    /* border: 1px solid blue; */
+    font-size: 18px;
+    color: rgb(11, 11, 11);
+    width: 100%;
+    line-height: 40px;
+}
+.FullserviceBoreder {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    width: 80%;
+    padding: 11px 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    .Fullservice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180vh;
+    padding:0px;
+    gap: 32px;
+    
+}
+.Fullservice-book{
+    /* border: 1px solid blue; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.Fullservice h1{
+    /* border: 1px solid red; */
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.Fullservice-book p{
+    /* border: 1px solid blue; */
+    font-size: 18px;
+    color: rgb(11, 11, 11);
+    width: 100%;
+    line-height: 40px;
+}
+.FullserviceBoreder {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    width: 80%;
+    padding: 11px 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+
+    .Fullservice{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding: 50px 15px;
+    width: 100%;
+    height: 180vh;
+    
+    gap: 32px;
+    
+}
+.Fullservice-book{
+    /* border: 1px solid blue; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.Fullservice h1{
+    /* border: 1px solid red; */
+    width: 90%;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.Fullservice-book p{
+    /* border: 1px solid blue; */
+    font-size: 18px;
+    color: rgb(11, 11, 11);
+    width: 100%;
+    line-height: 40px;
+}
+.FullserviceBoreder {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    width: 80%;
+    padding: 11px 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+}

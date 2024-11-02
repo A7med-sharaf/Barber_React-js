@@ -1,0 +1,142 @@
+.TextMain{
+    background-color: #a0c6b9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 0px;
+    /* border: 2px solid rgb(0, 237, 186); */
+
+}
+
+.TextMain h1{
+    /* border: 1px solid red; */
+    width: 40%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p{
+
+    font-size: 18px;
+    color: white;
+    
+    line-height: 40px;
+}
+
+
+
+.text-book{
+    /* border: 1px solid blue; */
+    width: 40%;
+
+}
+
+.bootBoreder{
+    border: 1px solid white;
+    background-color: white;
+    width: 56%;
+    padding: 11px 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.bootBoreder:hover{
+    color: white;
+    background-color: rgba(150, 110, 52, 0);
+}
+
+
+@media screen and (max-width:768px){
+    .TextMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 200vh;
+    }
+
+    .TextMain h1{
+       width: 80%;
+       text-align: left;
+    }
+    
+    .text-book{
+        /* border: 1px solid blue; */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+    
+    
+    }
+
+    .bootBoreder{
+        width: 80%;
+        text-align: center;
+    }
+   
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+   
+    .TextMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 200vh;
+    }
+
+    .TextMain h1{
+       width: 80%;
+    }
+    
+    .text-book{
+        /* border: 1px solid blue; */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+    
+    }
+
+    .bootBoreder{
+        width: 52%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1024px){
+   
+    .TextMain{
+        display: flex;
+        justify-content: space-around;
+
+        min-height: 130vh;
+    }
+
+    .TextMain h1{
+       width: 50%;
+    }
+    
+    .text-book{
+        /* border: 1px solid blue; */
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+    
+    }
+
+    .bootBoreder{
+        width: 62%;
+        text-align: center;
+    }
+}
