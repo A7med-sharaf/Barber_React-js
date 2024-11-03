@@ -2,8 +2,8 @@ import React from 'react'
 import barber_icon from '../../assets/hairdresserscissorsandcomb_89167.svg'
 const Navbar = () => {
   return (
-    <div>
-        <nav className="navbar bg-body-tertiary fixed-top">
+    <div >
+        <nav className=" navbar bg-body-tertiary fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><span> <img  src= {barber_icon} width="35"  alt="" /></span> Barber </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">

@@ -9,7 +9,7 @@ const Consultation = () => {
     <div className="Consultation">
         <div  data-aos="fade-up" className="postion-img">
             <img data-aos="fade-right" src={barber} alt="" />
-            <div data-aos="fade-left" className="border">
+            <div data-aos="fade-right" className="border">
                 <h2>Free consultation</h2>
                 <p>Get in touch with our expert barbers for a FREE one-on-one consultation. </p>
                 <button>BOOK NOW</button>
