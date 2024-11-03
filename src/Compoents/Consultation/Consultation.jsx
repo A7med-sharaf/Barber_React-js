@@ -6,7 +6,7 @@ import pixel3 from '../../assets/pexels-photo-9821204.jpeg'
 
 const Consultation = () => {
   return (
-    <div className="Consultation">
+    <div className="Consultation" id="Consultation">
         <div  data-aos="fade-up" className="postion-img">
             <img data-aos="fade-right" src={barber} alt="" />
             <div data-aos="fade-right" className="border">

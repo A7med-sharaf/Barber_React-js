@@ -1,0 +1,141 @@
+
+
+.WorkingHourse{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.table_hour{
+    width: 30%;
+    /* border: 1px solid red; */
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    line-height: 44px;
+
+}
+.table_hour h3{
+    color: rgb(4, 4, 4);
+    font-weight: 700;
+}
+
+.table_hour ul li {
+    color: rgb(3, 3, 3);
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.table_hour button{
+    border: 1px solid #a0c6b9;
+    background-color: #a0c6b900;
+    padding:4px 24px;
+
+}
+
+.table_hour button:hover{
+    
+    background-color: black;
+    color: white;
+}
+
+.why_chooes_Us{
+    
+    width: 30%;
+    /* border: 1px solid blue; */
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+    line-height: 36px;
+}
+
+.why_chooes_Us h1{
+color: white;
+font-weight: 700;
+}
+.why_chooes_Us ul li {
+    list-style:none;
+    color: white;
+    font-size: 18px;
+    
+}
+.why_chooes_Us p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.iconCheck{
+    padding: 0px 10px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    
+.WorkingHourse{
+    height: 250vh;
+  display: flex;
+  flex-direction: column;
+}
+    
+
+.table_hour{
+    width: 90%;
+   
+
+}
+.why_chooes_Us{
+    width: 90%;
+}
+
+.why_chooes_Us p{
+    width: 74%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .WorkingHourse{
+        height: 250vh;
+      display: flex;
+      flex-direction: column;
+    }
+        
+    
+    .table_hour{
+        width: 90%;
+       
+    
+    }
+    .why_chooes_Us{
+        width: 90%;
+    }  
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width:1024px) {
+
+    .why_chooes_Us{
+        width: 40%;
+    }  
+
+    .table_hour{
+        width: 40%;
+    }
+    
+    .why_chooes_Us p{
+        width: 77%;
+    }
+}

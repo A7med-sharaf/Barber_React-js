@@ -2,7 +2,7 @@ import './MensHaircut.css'
 
 const MensHaircut = () => {
   return (
-    <div className='MensHaircut'>
+    <div className='MensHaircut' id='MensHaircut'>
         <div className='Mens_border '  data-aos="zoom-in">
             <h1 data-aos="fade-right" className=''>Men's Haircut, Beard Trim</h1>
             <p data-aos="fade-right" className=''>Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus 

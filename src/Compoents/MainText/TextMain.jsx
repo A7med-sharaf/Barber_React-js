@@ -3,7 +3,7 @@ import "./Text.css"
 const TextMain = () => {
   return (
     
-    <div className="TextMain">
+    <div className="TextMain" id="TextMain">
       <h1 data-aos="fade-up">Best Haircut and Shave in New York</h1>
       <div data-aos="fade-down" className="text-book">
         <p>Article evident arrived express highest men did boy. Mistress 

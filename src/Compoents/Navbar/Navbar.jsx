@@ -1,5 +1,8 @@
-import React from 'react'
+import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars,faHome,faGhost,faScissors} from '@fortawesome/free-solid-svg-icons'
 import barber_icon from '../../assets/hairdresserscissorsandcomb_89167.svg'
+
 const Navbar = () => {
   return (
     <div >
@@ -7,7 +10,7 @@ const Navbar = () => {
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><span> <img  src= {barber_icon} width="35"  alt="" /></span> Barber </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+      <span className="">  <FontAwesomeIcon className='iconCheck' icon={faScissors}/>    </span>
     </button>
     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
@@ -20,8 +23,16 @@ const Navbar = () => {
             <a className="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Our Services</a>
-            <a className="nav-link active" aria-current="page" href="#">Our Prices</a>
+            <a className="nav-link active" aria-current="page" href="#Services">Our Services</a>
+            <a className="nav-link active" aria-current="page" href="#OurPrices">Our Prices</a>
+           
+            <a className="nav-link active" aria-current="page" href="#TextMain">TextMain</a>
+            <a className="nav-link active" aria-current="page" href="#WorkingHourse">WorkingHourse</a>
+            <a className="nav-link active" aria-current="page" href="#ContactBarbe">ContactBarbe</a>
+            <a className="nav-link active" aria-current="page" href="#Consultation">Consultation</a>
+            <a className="nav-link active" aria-current="page" href="#MensHaircut">MensHaircut</a>
+            <a className="nav-link active" aria-current="page" href="#Fullservice">Fullservice</a>
+            <a className="nav-link active" aria-current="page" href="#ContactUs">Contact Us</a>
           </li>
          
           

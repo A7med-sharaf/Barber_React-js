@@ -2,7 +2,7 @@ import "./OurPrices.css"
 
 const OurPrices = () => {
   return (
-    <div className='imgBackgroud'>
+    <div className='imgBackgroud' id="OurPrices">
         <h1  data-aos="zoom-in">Our Pricing</h1>
 
         <div data-aos="fade-right" className="serverBerber">

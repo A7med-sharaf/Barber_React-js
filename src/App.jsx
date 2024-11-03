@@ -10,6 +10,7 @@ import MensHaircut from './Compoents/Men\'s Haircut/MensHaircut'
 import Fullservice from './Compoents/Fullservice/Fullservice'
 import ContactUs from './Compoents/Contact_us/ContactUs'
 import Footer from './Compoents/Footer/Footer'
+import WorkingHourse from './Compoents/WorkingHourse/WorkingHourse'
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Services/>
       <OurPrices/>
       <TextMain/>
+      <WorkingHourse/>
       <ContactBarbe/>
       <Consultation/>
       <MensHaircut/>

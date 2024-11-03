@@ -3,7 +3,7 @@ import './Fullservice.css'
 const Fullservice = () => {
   return (
     
-    <div className='Fullservice'>
+    <div className='Fullservice' id='Fullservice'>
       <h1 data-aos="fade-up">Full service barber shop & men’s grooming studio</h1>
       <div  data-aos="fade-down" className="Fullservice-book">
         <p>Article evident arrived express highest men did boy. Mistress 

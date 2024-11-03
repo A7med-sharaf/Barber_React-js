@@ -2,7 +2,7 @@ import './ContactUs.css'
 
 const ContactUs = () => {
   return (
-    <div className='ContactUs'>
+    <div className='ContactUs' id='ContactUs'>
         <div data-aos="zoom-in" className='boreder_center'> 
             <div data-aos="zoom-in" className="table_contact">
                 <h1>Contact Us</h1>
