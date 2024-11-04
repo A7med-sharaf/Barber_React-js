@@ -11,6 +11,7 @@ import Fullservice from './Compoents/Fullservice/Fullservice'
 import ContactUs from './Compoents/Contact_us/ContactUs'
 import Footer from './Compoents/Footer/Footer'
 import WorkingHourse from './Compoents/WorkingHourse/WorkingHourse'
+import Register from './Compoents/RegisterBarber/Register'
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       <OurPrices/>
       <TextMain/>
       <WorkingHourse/>
+      <Register/>
       <ContactBarbe/>
       <Consultation/>
       <MensHaircut/>

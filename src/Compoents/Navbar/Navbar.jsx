@@ -28,6 +28,7 @@ const Navbar = () => {
            
             <a className="nav-link active" aria-current="page" href="#TextMain">TextMain</a>
             <a className="nav-link active" aria-current="page" href="#WorkingHourse">WorkingHourse</a>
+            <a className="nav-link active" aria-current="page" href="#BOOKANAPPOINTMENT">BOOK AN APPOINTMENT</a>
             <a className="nav-link active" aria-current="page" href="#ContactBarbe">ContactBarbe</a>
             <a className="nav-link active" aria-current="page" href="#Consultation">Consultation</a>
             <a className="nav-link active" aria-current="page" href="#MensHaircut">MensHaircut</a>
