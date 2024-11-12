@@ -12,7 +12,7 @@ const Consultation = () => {
             <div data-aos="fade-right" className="border">
                 <h2>Free consultation</h2>
                 <p>Get in touch with our expert barbers for a FREE one-on-one consultation. </p>
-                <button>BOOK NOW</button>
+                <a href="#BOOKANAPPOINTMENT">BOOK NOW</a>
             </div>
         </div>
         <div className="ConsultationBorder">

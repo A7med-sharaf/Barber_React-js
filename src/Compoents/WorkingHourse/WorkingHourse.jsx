@@ -17,7 +17,7 @@ const WorkingHourse = () => {
                 <li>  FRIDAY 8AM – 7PM</li>
                 <li> SATURDAY 9AM – 6PM </li>
             </ul>
-            <button>BOOK ONLINE</button>
+            <a href="#BOOKANAPPOINTMENT">BOOK ONLINE</a>
 
         </div>
         <div data-aos="fade-up" className="why_chooes_Us">

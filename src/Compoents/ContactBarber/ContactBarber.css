@@ -20,7 +20,7 @@
     color: rgb(0, 0, 0);
 }
 
-.ContactBarbe button{
+.ContactBarbe a{
     /* border: 1px solid red; */
     font-size: 18px;
     font-weight: 800;
@@ -30,7 +30,7 @@
     color: black;
 }
 
-.ContactBarbe button:hover{
+.ContactBarbe a:hover{
     background-color: black;
     color: white;
 }

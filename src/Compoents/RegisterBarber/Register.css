@@ -36,9 +36,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     
 }
+ form button{
+
+    padding: 12px 15px;
+    border: 1px solid #a0c6b9;
+}
+
+form button:hover{
+    transform:scale(1.0);
+    background-color: #a0c6b9;
+    color: white;
+}
+
+
 
 .Input_Data .filter form input{
     width: 50%;

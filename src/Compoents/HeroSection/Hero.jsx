@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 const Hero = () => {
     useEffect(()=>{
 
-        Aos.init({duration: "900" ,delay:"900" });
+        Aos.init({duration: "800" ,delay:"900" });
 
     },[])
   return (   <div className='heroSection animate__animated  animate__swing' >
@@ -18,9 +18,10 @@ const Hero = () => {
             <p className='' data-aos="fade-right">Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus 
                 dolor. A lacus vestibulum sed arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Mauris pellentesque 
             .</p>
-            <div  className='hero_book '  >
+    
+            <a href='#BOOKANAPPOINTMENT '  className='hero_book '  >
                 BOOK AN APPOINTMENT
-            </div>
+            </a>
         </div>
         
     </div>

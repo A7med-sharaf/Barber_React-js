@@ -29,16 +29,17 @@
     padding: 11px 47px;
     letter-spacing: 1px;
     line-height: 25.6px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     cursor: pointer;
 }
 
-.Mens_book:hover{
+.Mens_book a:hover{
+    border: none;
     background-color: white;
     color: black;
 }
-.Mens_border{
+.Mens_border {
     position: absolute;
     top: 100px;
     right: 160px;
@@ -49,7 +50,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+
 }
+
 
 
 @media screen and (max-width: 768px) {

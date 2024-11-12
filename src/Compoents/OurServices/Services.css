@@ -63,15 +63,24 @@
     
 }
 
- button{
-    
+  a {
+    background-color: white;
     padding: 12px 22px;
     border: none;
     font-size: 14px;
     letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
 }
+ /* a{
+    padding: 12px 23px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+} */
 
- button:hover{
+  a:hover{
 
     background-color: #a0c6b9;
     transition: 0.5s;

@@ -14,7 +14,7 @@ const TextMain = () => {
             Oh feel if up to till like. He an thing rapid these after going drawn or.
              Timed she his law the spoil round defer. In surprise concerns informed betrayed he 
              learning is ye.</p>
-        <div data-aos="fade-right" className="bootBoreder">BOOK AN APPOINTMENT</div>
+        <a href="#BOOKANAPPOINTMENT" data-aos="fade-right" className="bootBoreder">BOOK AN APPOINTMENT</a>
       </div>
     </div>
   )

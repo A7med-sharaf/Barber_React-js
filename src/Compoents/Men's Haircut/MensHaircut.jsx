@@ -8,9 +8,9 @@ const MensHaircut = () => {
             <p data-aos="fade-right" className=''>Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus 
                 dolor. A lacus vestibulum sed arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Mauris pellentesque 
             .</p>
-            <div data-aos="fade-right" className='Mens_book '>
+            <a href="#BOOKANAPPOINTMENT" data-aos="fade-right" className='Mens_book '>
                 BOOK AN APPOINTMENT
-            </div>
+            </a>
         </div>
     </div>
   )

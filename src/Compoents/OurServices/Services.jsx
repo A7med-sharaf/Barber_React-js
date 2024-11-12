@@ -7,21 +7,21 @@ const Services = () => {
         <h1 data-aos="fade-right">Our Services</h1>
         <div className="mad-services">
             <div data-aos="zoom-in" className="img-Services1">
-                <button  data-aos="flip-left"> HAIRCUTS</button>
+                <a href="#BOOKANAPPOINTMENT"  data-aos="flip-left">  HAIRCUTS</a>
             </div>
 
             <div data-aos="zoom-in" className="img-Services2">
-                <button data-aos="flip-right"> BEARD AND MORE</button>
+                <a href="#BOOKANAPPOINTMENT"   data-aos="flip-right"> BEARD AND MORE</a>
             </div>
 
 
             <div data-aos="zoom-in" className="img-Services3">
-                <button data-aos="flip-left"> SHACING</button>
+                <a href="#BOOKANAPPOINTMENT" data-aos="flip-left" > SHACING</a>
             </div>
 
 
             <div  data-aos="zoom-in" className="img-Services4">
-                <button data-aos="flip-right"> RAZOR BLADE</button>
+                <a href="#BOOKANAPPOINTMENT" data-aos="flip-right"> RAZOR BLADE</a>
             </div>
         </div>
     </div>

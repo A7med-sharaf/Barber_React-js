@@ -5,3 +5,12 @@
 border: none;
 border: 1px solid #a0c6b9;
 }
+.container-fluid .navbar-brand{
+    background-color: #f8f9fa;
+}
+
+.container-fluid button{
+    border: 2px solid #a0c6b9;
+    padding: 6px 18px;
+   
+}

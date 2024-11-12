@@ -14,7 +14,7 @@ const Fullservice = () => {
             Oh feel if up to till like. He an thing rapid these after going drawn or.
              Timed she his law the spoil round defer. In surprise concerns informed betrayed he 
              learning is ye.</p>
-        <div className="FullserviceBoreder">BOOK AN APPOINTMENT</div>
+        <a href="#BOOKANAPPOINTMENT" className="FullserviceBoreder">BOOK AN APPOINTMENT</a>
       </div>
     </div>
   )
