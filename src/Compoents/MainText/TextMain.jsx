@@ -4,7 +4,7 @@ const TextMain = () => {
   return (
     
     <div className="TextMain" id="TextMain">
-      <h1 data-aos="fade-up">Best Haircut and Shave in New York</h1>
+      <h1 data-aos="fade-up">Best Haircut and Shave in Sudan</h1>
       <div data-aos="fade-down" className="text-book">
         <p>Article evident arrived express highest men did boy. Mistress 
           sensible entirely am so. Quick can manor smart money hopes worth too.

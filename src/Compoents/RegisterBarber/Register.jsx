@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import './Register.css'
 import axios from 'axios'
 import Swal from 'sweetalert2'
@@ -7,6 +7,10 @@ import { $baseUrl } from '../Storg/Recoil'
 
 
 const Register = () => {
+const [time]=useState(0)
+
+  // const [Name_user]=useState(Name)
+
   const [baseUrl]= useRecoilState($baseUrl)
 
   
@@ -22,14 +26,14 @@ const Register = () => {
     let Phone=userphone.current.value
     
     // old regex  /^([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)$/;
+// /^([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)$/;
 
-
-    const Full_Name = /^([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)$/;
+    const Full_Name =/^(?:[\u0600-\u06FF]+|[a-zA-Z]+)(?:\s(?:[\u0600-\u06FF]+|[a-zA-Z]+)){2,3}$/;
     const isValidName = Full_Name.test(Name) || "Name invalid"
     const Fullphone = /^01\d{9}$/;
     const isValidPhone = Fullphone.test(Phone) || "phone invalid"
 
-    if(isValidName + isValidPhone == 2){
+    if( isValidName+ isValidPhone == 2){
       axios.post(`${baseUrl}/api/post-datas`,
         {
           data :{
@@ -41,15 +45,24 @@ const Register = () => {
       ).then((res)=>{
         // axios.get(`${baseUrl}/api/post-datas/:id`)
 
+          console.log(res.data);
+          Swal.fire({
+            title: "Reqister Done!",
+            text: "You clicked the button!",
+            
+            icon: "success",
+            timer:2000,
+          });
+
+    
+
+       
+
         Name=username.current.value=" "
         Phone=userphone.current.value=" "
-        console.log(res.data);
-        Swal.fire({
-          title: "Rqister Done!",
-          text: "You clicked the button!",
-          text: `Name is ${Name}`,
-          icon: "success"
-        });
+        
+        
+ 
        
       })
 
@@ -62,7 +75,8 @@ const Register = () => {
         icon: "error",
         title: "Oops...",
         text: "Something went wrong!",
-        footer: '<a href="#">Why do I have this issue?</a>'
+        footer: '<a href="#">Why do I have this issue?</a>',
+        timer:2000,
       });
      
     }
@@ -73,12 +87,12 @@ const Register = () => {
     <div className='Register' id='BOOKANAPPOINTMENT'>
         <div className="Input_Data">
             <div className="filter">
-            <form action="" onSubmit={upData}>
+            <form action=""  onSubmit={upData }>
                 <label  htmlFor="Name">Name</label>
                 <input ref={username} type="text" id='Name' placeholder='Enter your name' required />
                 <label htmlFor="Number">Nnmber</label>
                 <input ref={userphone} type="text" id='Number' placeholder='Enter your phone' required />
-                <button >    BOOK NOW</button>
+                <button disabled={time == 5? disabled :null}  >    BOOK NOW</button>
             </form>
             </div>
 
