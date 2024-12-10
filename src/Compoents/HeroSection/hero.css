@@ -94,8 +94,8 @@ width: 100%;
         left: 90px;
         border: 10px solid #a0c6b9;
         width: 300px;
-        height: 420px;
-
+        height: 400px;
+        padding: 10px;
     }
     .hero_border h1{
         font-size: 35px;
@@ -131,6 +131,7 @@ width: 100%;
         border: 10px solid #a0c6b9;
         width: 300px;
         height: 420px;
+        padding: 10px;
 
     }
     .hero_border h1{

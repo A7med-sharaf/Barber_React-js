@@ -1,6 +1,7 @@
 
 .Register{
-   background-color: #34241baa;
+    background-image: url(../../assets/high-angle-view-yellow-paint-table.jpg);
+   /* background-color: #34241baa; */
     background-size:cover;
     background-position-x: center;
   
@@ -11,6 +12,8 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    
 }
 
 .Input_Data{
@@ -21,9 +24,10 @@
     height: 70vh;
     width: 50%;
     
+    
 }
 .filter{
-    background-color: rgba(0, 0, 0, 0.482);
+    background-color: rgb(0 0 0 / 29%);
     background-size: cover;
     border-radius:5px ;
     height: 70vh;

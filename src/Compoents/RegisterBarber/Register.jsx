@@ -28,12 +28,14 @@ const [time]=useState(0)
     // old regex  /^([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)$/;
 // /^([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)$/;
 
-    const Full_Name =/^(?:[\u0600-\u06FF]+|[a-zA-Z]+)(?:\s(?:[\u0600-\u06FF]+|[a-zA-Z]+)){2,3}$/;
-    const isValidName = Full_Name.test(Name) || "Name invalid"
-    const Fullphone = /^01\d{9}$/;
-    const isValidPhone = Fullphone.test(Phone) || "phone invalid"
+    // /^(?:[\u0600-\u06FF]+|[a-zA-Z]+)(?:\s(?:[\u0600-\u06FF]+|[a-zA-Z]+)){2,3}$/;
 
-    if( isValidName+ isValidPhone == 2){
+    // const Full_Name = /^([A-Za-z]+)(?:\s[A-Za-z]+){2,3}$/;
+    // const isValidName = Full_Name.test(Name) || "Name invalid"
+    const Fullphone = /^(01)\d{9}$/;
+    const isValidPhone = Fullphone.test(Phone) || "phone invalid"
+    // isValidName +
+    if(  isValidPhone == 1){
       axios.post(`${baseUrl}/api/post-datas`,
         {
           data :{
@@ -43,15 +45,15 @@ const [time]=useState(0)
           }
         }
       ).then((res)=>{
-        // axios.get(`${baseUrl}/api/post-datas/:id`)
-
+       
+        
           console.log(res.data);
           Swal.fire({
             title: "Reqister Done!",
-            text: "You clicked the button!",
             
+            text: res.data.data.id - 1 + " " +  res.data.data.User_name ,
             icon: "success",
-            timer:2000,
+            // timer:2000,
           });
 
     
@@ -68,8 +70,8 @@ const [time]=useState(0)
 
     }else{
       // alert("erro Name or Phone")
-      alert(isValidName);
-      alert(isValidPhone);
+      // alert(isValidName);
+      // alert(isValidPhone);
       
       Swal.fire({
         icon: "error",
@@ -84,10 +86,10 @@ const [time]=useState(0)
     
   }
   return (
-    <div className='Register' id='BOOKANAPPOINTMENT'>
-        <div className="Input_Data">
+    <div className='Register ' id='BOOKANAPPOINTMENT'>
+        <div className="Input_Data  ">
             <div className="filter">
-            <form action=""  onSubmit={upData }>
+            <form   onSubmit={upData }>
                 <label  htmlFor="Name">Name</label>
                 <input ref={username} type="text" id='Name' placeholder='Enter your name' required />
                 <label htmlFor="Number">Nnmber</label>

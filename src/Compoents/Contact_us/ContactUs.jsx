@@ -107,7 +107,7 @@ const ContactUs = () => {
 
       Swal.fire({
               title: "Good job!",
-              text: "You clicked the button!",
+              text: "sent message!",
               icon: "success",
               timer:2000,
              

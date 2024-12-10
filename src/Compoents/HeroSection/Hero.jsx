@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 const Hero = () => {
     useEffect(()=>{
 
-        Aos.init({duration: "800" ,delay:"900" });
+        Aos.init({duration: "700" ,delay:"900" });
 
     },[])
   return (   <div className='heroSection animate__animated  animate__swing' >

@@ -15,6 +15,7 @@
 .img-Services1{
     background-image: url(../../assets/ffff.jpg);
     background-size: cover;
+    /* object-fit: contain  ; */
     width: 224px;
     height: 357px;
     display: flex;
@@ -109,10 +110,15 @@
 @media screen and (min-width:768px)and (max-width: 992px){
     
     .mad-services{
+        width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px
+    /* gap: 20px */
+    }
+    .img-Services1 , .img-Services2 ,.img-Services3, .img-Services4{
+        width: 45%;
+
     }
 }
 
