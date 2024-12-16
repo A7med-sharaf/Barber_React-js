@@ -12,7 +12,7 @@ const Consultation = () => {
             <div data-aos="fade-right" className="border">
                 <h2>Free consultation</h2>
                 <p>Get in touch with our expert barbers for a FREE one-on-one consultation. </p>
-                <a  href="https://wa.me/249998693985" target="blank">BOOK NOW</a>
+                <a  href="https://wa.me/249998693985" target="blank" style={{fontSize:"1rem"}}>consultation</a>
             </div>
         </div>
         <div className="ConsultationBorder">

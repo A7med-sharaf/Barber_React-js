@@ -1,6 +1,7 @@
 import "./Text.css"
 
 const TextMain = () => {
+  
   return (
     
     <div className="TextMain" id="TextMain">

@@ -59,6 +59,11 @@ align-items: center;
     padding: 10px 12px;
     background-color: #f2f2f2;
     border: none;
+    outline: none;
+}
+
+.form .input:focus{
+    outline:1px solid #a0c6b9;
 }
 
 .form .textarea{
@@ -67,9 +72,12 @@ align-items: center;
     height: 19vh;
     border: 1px solid rgb(179, 179, 179);
     background-color: #f2f2f2;
+    
 
 }
-
+.form .textarea:focus{
+    outline:1px solid #a0c6b9;
+}
 
 .form .label_username{
     

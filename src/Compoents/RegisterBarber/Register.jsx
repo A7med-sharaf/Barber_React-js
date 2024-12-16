@@ -47,7 +47,7 @@ const [time]=useState(0)
       ).then((res)=>{
        
         
-          console.log(res.data);
+          // console.log(res.data);
           Swal.fire({
             title: "Reqister Done!",
             

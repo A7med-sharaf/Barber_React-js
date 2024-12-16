@@ -1,187 +1,158 @@
+.Register {
+  background-image: url(../../assets/high-angle-view-yellow-paint-table.jpg);
+  /* background-color: #34241baa; */
+  background-size: cover;
+  background-position-x: center;
 
-.Register{
-    background-image: url(../../assets/high-angle-view-yellow-paint-table.jpg);
-   /* background-color: #34241baa; */
-    background-size:cover;
-    background-position-x: center;
-  
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-    
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.Input_Data{
-    background-image: url(../../assets/baber.jpeg);
-    background-size: cover;
-    /* border: 1px solid blue; */
-    border-radius: 5px;
-    height: 70vh;
-    width: 50%;
-    
-    
+.Input_Data {
+  background-image: url(../../assets/baber.jpeg);
+  background-size: cover;
+  /* border: 1px solid blue; */
+  border-radius: 5px;
+  height: 70vh;
+  width: 50%;
 }
-.filter{
-    background-color: rgb(0 0 0 / 29%);
-    background-size: cover;
-    border-radius:5px ;
-    height: 70vh;
-    width: 100%;
-    
+.filter {
+  background-color: rgb(0 0 0 / 29%);
+  background-size: cover;
+  border-radius: 5px;
+  height: 70vh;
+  width: 100%;
 }
-.Input_Data .filter form{
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    
+.Input_Data .filter form {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
- form button{
-
-    padding: 12px 15px;
-    border: 1px solid #a0c6b9;
+form button {
+  padding: 12px 15px;
+  border: 1px solid #a0c6b9;
 }
 
-form button:hover{
-    transform:scale(1.0);
-    background-color: #a0c6b9;
-    color: white;
+form button:hover {
+  transform: scale(1);
+  background-color: #a0c6b9;
+  color: white;
 }
 
-
-
-.Input_Data .filter form input{
-    width: 50%;
-    padding: 12px 15px;
-    border: none;
-    border: 1px solid #a0c6b9;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 5px;
+.Input_Data .filter form input {
+  width: 50%;
+  padding: 12px 15px;
+  border: none;
+  border: 1px solid #a0c6b9;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  outline:none;
 }
-.Input_Data .filter form label{
-    color: rgb(255, 255, 255);
-    margin-bottom: -10px;
-    /* border: 1px solid red; */
-    font-size: 18px;
-    font-weight: 500;
-    width: 50%;
+.Input_Data .filter form input:focus {
+  outline: 1px solid rgb(246, 246, 4);
 }
-
-.Input_Data .filter form  button{
-    margin-top: 20px;
-    padding: 10px 12px;
-    border-radius:2px ;
+.Input_Data .filter form label {
+  color: rgb(255, 255, 255);
+  margin-bottom: -10px;
+  /* border: 1px solid red; */
+  font-size: 18px;
+  font-weight: 500;
+  width: 50%;
 }
 
-.Time_down{
-    
-    /* border: 1px solid red; */
-    width: 35%;
-    height: 20vh;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 5px ;
-    
+.Input_Data .filter form button {
+  margin-top: 20px;
+  padding: 10px 12px;
+  border-radius: 2px;
 }
-.Time_down h2, h1{
-    font-size: 30px;
-    font-weight: 700;
+
+.Time_down {
+  /* border: 1px solid red; */
+  width: 35%;
+  height: 20vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.Time_down h2,
+h1 {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
+  .Input_Data {
+    width: 95%;
+  }
 
-    .Input_Data{
-        width: 95%;
-    }
+  .Input_Data .filter form {
+    width: 100%;
+  }
 
-    .Input_Data .filter form{
-     width: 100%;
-        
-    }
+  .Input_Data .filter form input {
+    width: 90%;
+    text-align: center;
+  }
+  .Input_Data .filter form label {
+    width: 90%;
+    text-align: center;
+  }
 
-    .Input_Data .filter form input{
-        width: 90%;
-        text-align: center;
-      
-    }
-    .Input_Data .filter form label{
-        width: 90%;
-        text-align: center;
-      
-    }
-
-    .Time_down{
-        /* border: 1px solid red; */
-        width: 90%;
-       
-        
-    }
-    
+  .Time_down {
+    /* border: 1px solid red; */
+    width: 90%;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .Input_Data {
+    width: 95%;
+  }
 
-    .Input_Data{
-        width: 95%;
-    }
+  .Input_Data .filter form {
+    width: 100%;
+  }
 
-    .Input_Data .filter form{
-     width: 100%;
-        
-    }
-
-    .Input_Data .filter form input{
-        width: 90%;
-        text-align: center;
-      
-    }
-    .Input_Data .filter form label{
-        width: 90%;
-        text-align: center;
-      
-    }
-    .Time_down{
-        /* border: 1px solid red; */
-        width: 40%;
-       
-        
-    }
-    
-    
+  .Input_Data .filter form input {
+    width: 90%;
+    text-align: center;
+  }
+  .Input_Data .filter form label {
+    width: 90%;
+    text-align: center;
+  }
+  .Time_down {
+    /* border: 1px solid red; */
+    width: 40%;
+  }
 }
 
-@media screen and (min-width: 992px) and (max-width:1024px) {
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .Input_Data {
+    width: 70%;
+  }
 
-    .Input_Data{
-        width: 70%;
-    }
+  .Input_Data .filter form {
+    width: 100%;
+  }
 
-    .Input_Data .filter form{
-     width: 100%;
-        
-    }
-
-    .Input_Data .filter form input{
-        width: 51%;
-        text-align: center;
-      
-    }
-    .Input_Data .filter form label{
-        width: 51%;
-        
-      
-    }
-   
-    
+  .Input_Data .filter form input {
+    width: 51%;
+    text-align: center;
+  }
+  .Input_Data .filter form label {
+    width: 51%;
+  }
 }
