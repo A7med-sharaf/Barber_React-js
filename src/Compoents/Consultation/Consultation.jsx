@@ -1,8 +1,8 @@
 import "./Consultation.css"
 import barber from '../../assets/yyyy.jpg'
-import pixel from '../../assets/pexels-photo-4576085.jpeg'
-import pixel2 from '../../assets/pexels-photo-5141074.jpeg'
-import pixel3 from '../../assets/pexels-photo-9821204.jpeg'
+import pixel from '../../assets/beard-4136705_1920.jpg'
+import pixel2 from '../../assets/adult-1867471_640.jpg'
+import pixel3 from '../../assets/pexels-photo-5141074.jpeg'
 
 const Consultation = () => {
   return (
@@ -20,25 +20,22 @@ const Consultation = () => {
         <div className="img-center">
         <div className="ConsultationBorder_Box ">
           <img data-aos="zoom-in" src={pixel} alt="" />
-          <h3 data-aos="fade-up">stella larson</h3>
-          <p data-aos="fade-up">Sample text. Click to select the text box. Click again or
-           double click to start editing the text.</p>
+          <h3 data-aos="fade-up">Peter larson</h3>
+          <p data-aos="fade-up">Peter larsonis an amazing barber! He always gives the perfect cut and makes sure I leave looking sharp. Highly recommended!.</p>
         </div>
 
 
         <div className="ConsultationBorder_Box ">
           <img data-aos="zoom-in" src={pixel2} alt="" />
           <h3 data-aos="fade-up">nick jhonson</h3>
-          <p data-aos="fade-up">Sample text. Click to select the text box. Click again or
-           double click to start editing the text.</p>
+          <p data-aos="fade-up">Nick Johnson an amazing barber! He always gives the perfect cut and makes sure I leave looking sharp. Highly recommended!.</p>
         </div>
 
 
         <div className="ConsultationBorder_Box ">
           <img data-aos="zoom-in" src={pixel3} alt="" />
-          <h3 data-aos="fade-up">olga ivanova</h3>
-          <p data-aos="fade-up">Sample text. Click to select the text box. Click again or
-           double click to start editing the text.</p>
+          <h3 data-aos="fade-up">John ivanova</h3>
+          <p data-aos="fade-up">John is an amazing barber! He always gives the perfect cut and makes sure I leave looking sharp. Highly recommended!.</p>
         </div>
         </div>
 

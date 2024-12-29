@@ -16,7 +16,7 @@ const Services = () => {
 
 
             <div data-aos="zoom-in" className="img-Services3">
-                <a href="#BOOKANAPPOINTMENT" data-aos="flip-left" > SHACING</a>
+                <a href="#BOOKANAPPOINTMENT" data-aos="flip-left" > SHAVING</a>
             </div>
 
 

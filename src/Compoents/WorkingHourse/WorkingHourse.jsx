@@ -9,13 +9,13 @@ const WorkingHourse = () => {
         <div  data-aos="fade-down" className="table_hour">
         <h3>Working Hourse</h3>
             <ul>
-                <li> SUNDAY 10 AM – 5 PM</li>
-                <li> MONDAY 9 AM – 7PM</li>
-                <li>TUESDAY 8AM – 8PM</li>
-                <li>WEDNESDAY 8AM – 8PM</li>
-                <li>THURSDAY 8AM – 8PM</li>
-                <li>  FRIDAY 8AM – 7PM</li>
-                <li> SATURDAY 9AM – 6PM </li>
+                <li> SUNDAY    10 AM – 12PM</li>
+                <li> MONDAY    10 AM – 12PM </li>
+                <li> TUESDAY   10 AM – 12PM </li>
+                <li> WEDNESDAY 10 AM – 12PM </li>
+                <li> THURSDAY  10 AM – 12PM </li>
+                <li> FRIDAY    10 AM – 12PM </li>
+                <li> SATURDAY  10 AM – 12PM </li>
             </ul>
             <a href="#BOOKANAPPOINTMENT">BOOK ONLINE</a>
 

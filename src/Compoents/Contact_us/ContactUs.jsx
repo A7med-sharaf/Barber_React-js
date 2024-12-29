@@ -96,14 +96,14 @@ const ContactUs = () => {
       },
       body: json
     }).then((res) => res.json());
-       console.log(res.data);
+      //  console.log(res.data);
        
         user.current.value=" "
         email.current.value=" "
         texteara1.current.value=" "
 
     if (res.success) {
-      console.log("Success", res);
+      // console.log("Success", res);
 
       Swal.fire({
               title: "Good job!",

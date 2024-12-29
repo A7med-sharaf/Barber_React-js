@@ -25,17 +25,19 @@ const [time]=useState(0)
     let Name=username.current.value
     let Phone=userphone.current.value
     
-    // old regex  /^([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)$/;
+//     old regex  /^([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)\s([a-zA-Z\u0600-\u06FF]+)$/;
 // /^([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)\s+([\u0600-\u06FFa-zA-Z]+)$/;
 
     // /^(?:[\u0600-\u06FF]+|[a-zA-Z]+)(?:\s(?:[\u0600-\u06FF]+|[a-zA-Z]+)){2,3}$/;
 
     // const Full_Name = /^([A-Za-z]+)(?:\s[A-Za-z]+){2,3}$/;
     // const isValidName = Full_Name.test(Name) || "Name invalid"
+    
+    // /^01\d{9}$/
     const Fullphone = /^(01)\d{9}$/;
-    const isValidPhone = Fullphone.test(Phone) || "phone invalid"
+    const isValidPhone = Fullphone.test(Phone) 
     // isValidName +
-    if(  isValidPhone == 1){
+    if(isValidPhone  == 1){
       axios.post(`${baseUrl}/api/post-datas`,
         {
           data :{
@@ -51,8 +53,10 @@ const [time]=useState(0)
           Swal.fire({
             title: "Reqister Done!",
             
-            text: res.data.data.id - 1 + " " +  res.data.data.User_name ,
+            text: res.data.data.id - 1 + " " +  res.data.data.User_name  ,
+            
             icon: "success",
+            footer: '<h5>Please take a screenshot of the ticket.</h5>'  ,
             // timer:2000,
           });
 
@@ -77,7 +81,7 @@ const [time]=useState(0)
         icon: "error",
         title: "Oops...",
         text: "Something went wrong!",
-        footer: '<a href="#">Why do I have this issue?</a>',
+        
         timer:2000,
       });
      
@@ -94,7 +98,7 @@ const [time]=useState(0)
                 <input ref={username} type="text" id='Name' placeholder='Enter your name' required />
                 <label htmlFor="Number">Nnmber</label>
                 <input ref={userphone} type="text" id='Number' placeholder='Enter your phone' required />
-                <button disabled={time == 5? disabled :null}  >    BOOK NOW</button>
+                <button >BOOK NOW</button>
             </form>
             </div>
 

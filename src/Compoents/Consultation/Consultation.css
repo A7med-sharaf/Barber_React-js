@@ -191,6 +191,7 @@ line-height: 36px;
             text-align: center;
             line-height: 36px;
             width: 90%;
+            font-size: 15px;
         }
 
     
@@ -280,8 +281,13 @@ line-height: 36px;
             text-align: center;
             line-height: 36px;
             width: 90%;
+            font-size: 17px;
         }
-
+        .ConsultationBorder_Box h3 {
+            
+            font-size: 22px;
+            
+}
 
     
 }
@@ -369,7 +375,13 @@ line-height: 36px;
             text-align: center;
             line-height: 36px;
             width: 90%;
+            font-size: 23px;
         }
+        .ConsultationBorder_Box h3 {
+            
+            font-size: 24px;
+            
+}
 
 
     
